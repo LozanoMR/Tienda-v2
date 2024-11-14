@@ -25,11 +25,6 @@ function showModal(productName) {
 function sendWhatsApp() {
   // Obtener el nombre del producto del botón
   const productName = document.getElementById('whatsapp-button').getAttribute('data-product');
-  
-  // Número de teléfono y mensaje
-  const phoneNumber = '3234667643';
-  const message = `Hola, estoy interesado en comprar el producto: ${productName}.`;
-
   // URL de WhatsApp
   const whatsappUrl = `https://wa.link/o0salr`;
   // Abrir WhatsApp
