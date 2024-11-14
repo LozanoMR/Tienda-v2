@@ -31,8 +31,7 @@ function sendWhatsApp() {
   const message = `Hola, estoy interesado en comprar el producto: ${productName}.`;
 
   // URL de WhatsApp
-  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-
+  const whatsappUrl = `https://wa.link/o0salr`;
   // Abrir WhatsApp
   window.open(whatsappUrl, '_blank');
 }
