@@ -26,7 +26,7 @@ function sendWhatsApp() {
   // Obtener el nombre del producto del botón
   const productName = document.getElementById('whatsapp-button').getAttribute('data-product');
   // URL de WhatsApp
-  const whatsappUrl = `https://wa.link/o0salr`;
+  const whatsappUrl = `https://wa.link/huexwd`;
   // Abrir WhatsApp
   window.open(whatsappUrl, '_blank');
 }
